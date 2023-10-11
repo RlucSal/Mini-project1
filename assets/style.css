@@ -20,16 +20,19 @@
   main {
     padding: 60px 0;
   }
+
   
   li {
     display: inline;
     padding: 0px 20px;
     text-decoration: none;
+    float: right;
   }
+  
   
   a {
     text-decoration: none;
-    color: black;
+    color:white;
   }
   
   header,
@@ -55,11 +58,16 @@
   
   figure {
     margin-bottom: 40px;
+    left: 500px;
+
   }
   
   img {
     display: block;
     margin: 20px auto;
+    height: 670px;
+    width: 550px;
+    
   }
   
   section {
@@ -100,14 +108,26 @@
     width: 120px;
     background-color: black;
     color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 10px;
+   
   }
+
+  .text-under-pic-center {
+    text-align: center;
+
+  }
+  
    
   /* Class Selectors */
-  .text-center {
-    text-align: center;
+   .text-top-center {
+    text-align: left;
+    
   }
   
   .text-right {
-    text-align: right;
+    text-align: left;
   }
+
   
